@@ -1,0 +1,18 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  background-color: #37505C;
+}
+.kembali{
+  background-color: white;
+  text-align: center;
+  margin-left: 50%;
+}
+h1{
+  color: #F2C14E;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  
+}

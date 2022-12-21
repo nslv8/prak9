@@ -1,0 +1,88 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --orange: #F2C14E;
+  --winning-blocks: #2d414b;
+}
+body {
+    color: var(--orange);
+    text-align: center;
+  } 
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.kembali{
+  margin-top: 50%;
+}
+.container {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #37505C;
+}
+.judul{
+  margin-top: 10px;
+}
+.btn {
+  font-size: 20px;
+  border: 0px;
+  color: black;
+  background-color: beige;
+  padding: 15px;
+  height:10vh;
+}
+#board {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, auto)
+}
+  
+#scores {
+  font-size: 150%;
+}
+  
+td {
+  font-size: 3.5em;
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 300%;
+}
+  
+tbody {
+  border: none;
+}
+  
+.top > td{
+  border-top:none;
+  border-bottom: solid 1px white;
+}
+.mid > td {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.bot > td {
+  border-bottom: none;
+}
+  
+.left {
+  border-left: none;
+
+}
+.right {
+  border-right: none;
+}
+
+  
